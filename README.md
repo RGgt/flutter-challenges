@@ -5,6 +5,6 @@ Short, yet interesting challenges that will help gradually master Flutter
 
 
 
-| [<img src="images/challenge_1.png" height="400">](/challenges_set_1/challenge_1/README.md) |
+| [<img src="images/challenge_1_thumbnail.jpg" height="400">](/challenges_set_1/challenge_1/README.md) |
 |:---:|
 | **Challenge 1** |
