@@ -6,7 +6,8 @@
 Recreate this design.
 <div align="center">
 
-<img src="images/challenge_1.png" height="600">
+[ ![](images/challenge_1_large_thumbnail.png) ](images/challenge_1_large.png)
+<img src="images/challenge_1_large.png" height="600">
 </div>
 
 
