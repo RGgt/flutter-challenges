@@ -6,9 +6,11 @@
 Recreate this design.
 <div align="center">
 
-[ ![](images/challenge_1_large_thumbnail.png) ](images/challenge_1_large.png)
-<img src="images/challenge_1_large.png" height="600">
+[<img src="images/challenge_1_large_thumbnail.jpg" height="400">](/ZOOM.md)
+
 </div>
+
+
 
 
 The technical challenge here is to create that wave-like section. 
