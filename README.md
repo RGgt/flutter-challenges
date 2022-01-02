@@ -1,4 +1,4 @@
-# flutter-challenges
+# Flutter-Challenges
 Short, yet interesting challenges that will help gradually master Flutter
 
 # Challenges
