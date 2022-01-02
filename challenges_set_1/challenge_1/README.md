@@ -6,7 +6,7 @@
 Recreate this design.
 <div align="center">
 
-[<img src="images/challenge_1_large_thumbnail.jpg" height="400">](ZOOM.md)
+[<img src="images/large_thumbnail.jpg" height="400">](ZOOM.md)
 
 </div>
 
