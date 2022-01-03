@@ -1,3 +1,6 @@
+layout: page
+title: "PAGE TITLE"
+permalink: /home/
 # Flutter-Challenges
 Short, yet interesting challenges that will help gradually master Flutter
 
