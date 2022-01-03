@@ -1,6 +1,6 @@
 layout: page
 title: "PAGE TITLE"
-permalink: /home/
+permalink: /about/contact/
 # Flutter-Challenges
 Short, yet interesting challenges that will help gradually master Flutter
 
