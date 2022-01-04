@@ -1,0 +1,14 @@
+{% if page.solutions_links %}
+    {% if page.solutions_links.size > 1 %}
+Solutions: 
+<ul>
+{% for solution in page.solutions_links %}
+<li><a href="{{ solution.url }}">{{ solution.title }}</a> {% if solution.extra %}({{solution.extra}}){% endif %}</li>
+{% endfor %}
+</ul>
+    {% else %}
+    {% assign solution = page.solutions_links[0] %}
+<a href="{{ solution.url }}">{{ solution.title }}</a> {% if solution.extra %}({{solution.extra}}){% endif %}
+    {% endif %}
+
+{% endif %}

@@ -1,0 +1,51 @@
+
+.fancy { 
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+    font-size: 15px; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    color: #474747;
+}
+
+.spoiler { 
+    font-size: 15px; font-weight: 400; line-height: 1.5; color: #474747;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background-color: rgb(213, 230, 238); 
+    border: none; 
+}
+
+#main-content-extra { float: left; width: 690px; }
+
+#main-content-extra img { max-width: 100%; }
+
+#main-content-extra h1.fancy { margin-top: 0; margin-bottom: 0; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 2.8em; font-weight: normal; color: #474747; text-indent: 6px; letter-spacing: -1px;}
+
+
+#main-content-extra h2.fancy { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 22px; font-weight: bold; color: #474747; text-indent: 4px; }
+
+
+#main-content-extra h3.fancy { margin-top: 24px; margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 18px; font-weight: bold; color: #474747; text-indent: 3px; }
+
+
+#main-content-extra h4.fancy { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 15px; font-weight: bold; color: #474747; text-indent: 3px; }
+
+
+#main-content-extra h5.fancy { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 14px; color: #474747; text-indent: 3px; }
+
+
+#main-content-extra h6.fancy { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: .8em; color: #474747; text-indent: 3px; }
+
+body{
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+#main-content-extra .centered {  text-align: center;}
+#main-content-extra .bold{
+    font-weight: bold;
+}

@@ -1,0 +1,6 @@
+---
+layout: layout_home
+---
+<p class="spoiler fancy">
+You should always aim to solve these challeges yourself as this way you will learn the most. To help you get started, some challages will include hints about the components that you need to use and term that you need to investigate.</p>
+<hr/>
