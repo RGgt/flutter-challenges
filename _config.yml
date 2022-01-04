@@ -22,7 +22,7 @@ title: Flutter Challenges
 # email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Short, yet interesting challenges that will help gradually master Flutter.
-baseurl: "Flutter-Challenges/" # the subpath of your site, e.g. /blog
+baseurl: "flutter-challenges/" # the subpath of your site, e.g. /blog
 url: "https://rggt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: __RGGT__
 github_username:  RGgt
