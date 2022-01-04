@@ -45,7 +45,7 @@
         {% endif %}
         <li style="display: inline; padding-right: 40px;">
           <article class="post-preview">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" style="">
+            <a href="{{ post.permalink | absolute_url' }}" style="">
           {% if post.in_list__image %}
           <div style="max-height: 400px; max-width: 200px;">
             <img src="assets/{{ post.assets_folder}}/{{ post.in_list__image | escape }}" style="max-height: 200px;max-width: 200px;min-height: 200px;min-width: 200px;"/>
