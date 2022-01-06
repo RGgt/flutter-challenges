@@ -1,51 +1,67 @@
-
+/* font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; */
 .fancy { 
-    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-    font-size: 15px; 
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+    font-size: 18px; 
     font-weight: 400; 
     line-height: 1.5; 
     color: #474747;
 }
 
 .spoiler { 
-    font-size: 15px; font-weight: 400; line-height: 1.5; color: #474747;
+    font-size: 18px; font-weight: 400; line-height: 1.5; color: #474747;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 30px;
     padding-bottom: 10px;
     padding-left: 30px;
     background-color: rgb(213, 230, 238); 
     border: none; 
 }
 
+header { padding-top: 40px; padding-bottom: 40px; font-family: 'Helvetica Neue', Helvetica, Arial, serif; background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x; border-bottom: solid 1px #275da1; }
+
+
 #main-content-extra { float: left; width: 690px; }
 
 #main-content-extra img { max-width: 100%; }
 
-#main-content-extra h1.fancy { margin-top: 0; margin-bottom: 0; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 2.8em; font-weight: normal; color: #474747; text-indent: 6px; letter-spacing: -1px;}
+#main-content-extra h1.fancy { margin-top: 0; margin-bottom: 0; font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-size: 48px; font-weight: normal; color: #474747; text-indent: 6px; letter-spacing: -1px;}
+#main-content-extra h1:before { padding-right: 0.3em; margin-left: -0.9em; color: #9ddcff; content: none; }
 
 
-#main-content-extra h2.fancy { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 22px; font-weight: bold; color: #474747; text-indent: 4px; }
+#main-content-extra h2.fancy { margin-bottom: 8px; font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-size: 25px; font-weight: bold; color: #474747; text-indent: 4px; }
+#main-content-extra h2:before { padding-right: 0.3em; margin-left: -1.5em; content: none; color: #9ddcff; }
 
 
-#main-content-extra h3.fancy { margin-top: 24px; margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 18px; font-weight: bold; color: #474747; text-indent: 3px; }
+#main-content-extra h3.fancy { margin-top: 24px; margin-bottom: 8px; font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-size: 21px; font-weight: bold; color: #474747; text-indent: 3px; }
+#main-content-extra h3:before { padding-right: 0.3em; margin-left: -2em; content: none; color: #9ddcff; }
 
 
-#main-content-extra h4.fancy { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 15px; font-weight: bold; color: #474747; text-indent: 3px; }
+#main-content-extra h4.fancy { margin-bottom: 8px; font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-size: 18px; font-weight: bold; color: #474747; text-indent: 3px; }
+#main-content-extra h4:before { padding-right: 0.3em; margin-left: -2.8em; content: none; color: #9ddcff; }
 
 
-#main-content-extra h5.fancy { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 14px; color: #474747; text-indent: 3px; }
+#main-content-extra h5.fancy { margin-bottom: 8px; font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-size: 17px; color: #474747; text-indent: 3px; }
+#main-content-extra h5:before { padding-right: 0.3em; margin-left: -3.2em; content: none; color: #9ddcff; }
 
+#main-content-extra h6.fancy { margin-bottom: 8px; font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-size: 16px; color: #474747; text-indent: 3px; }
+#main-content-extra h6:before { padding-right: 0.3em; margin-left: -3.7em; content: none; color: #9ddcff; }
 
-#main-content-extra h6.fancy { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: .8em; color: #474747; text-indent: 3px; }
+credits { padding-top: 20px; padding-bottom: 30px; margin-top: 40px; font-size: 13px; color: #aaa; }
+
+credits a { color: #666; }
+
+credits a:hover { color: #444; }
 
 body{
-    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 18px;
 }
 #main-content-extra .centered {  text-align: center;}
+#main-content-extra .right {  text-align: right;}
 #main-content-extra .bold{
     font-weight: bold;
 }
