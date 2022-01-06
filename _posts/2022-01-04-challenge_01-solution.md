@@ -1,10 +1,11 @@
 ---
 date:   2022-01-04 11:13:57 +0200 #mandatory for Jekyll
 layout: layout_solution
-permalink: "2022-01-04-challenge_01-solution.html"
+permalink: "challenge_01-solution.html"
 assets_folder: "challenge_01/solution_01"
 in_list__title:  "Challenge 1 [Solution]"
 post_type: "solution"
+credit_line: "A solution by [RGgt](https://github.com/RGgt)"
 challenge: "challenge-01.html"
 og_title: "Flutter Challenges: Challenge 01 [Solution]"
 og_description: "To implement this design, we will need to place 2 widgets, one on top of the other. One widget will be a simple box with a white background; the other widget will have a purple background and will later be clipped to give the wave-like appearance..."
@@ -12,7 +13,11 @@ og_image: "assets/{{ page.assets_folder }}/og_challenge_01_solution.jpg"
 
 categories: jekyll update # ?
 ---
-[The Challenge]({{page.challenge}})
+[<< Back to the challenge]({{page.challenge}})
+
+<h1 class="fancy centered"> {{ page.in_list__title }}</h1>
+{% include solution_credits_line.html  %}
+<hr>
 
 
 To implement this design, we will need to place 2 widgets, one on top of the other. One widget will be a simple box with a white background; the other widget will have a purple background and will later be clipped to give the wave-like appearance.
