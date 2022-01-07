@@ -272,4 +272,10 @@ class MyClipper extends CustomClipper<Path> {
 <span class="bold">3. In our custom clipper, we returned the area that we wanted to remain visible, and everything else was cut out. We experimented with the control point of the Bezier curves until we were pleased with the visual result.</span><br/>
 
 Now all that is left is to replace the hard-coded values with parameters.
+ 
+<hr/>
+ 
+<a href="https://dartpad.dev/?id=63c89386e7b2c9b5e0b37b188c183070" target="_blank">See the basic solution</a> on DartPad
 
+
+<a href="https://dartpad.dev/?id=03e0bc5759e05e6652b6855f4031fe97" target="_blank">See a slightly more polished impementation of the  solution</a> on DartPad
