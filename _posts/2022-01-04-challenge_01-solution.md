@@ -105,7 +105,7 @@ To do that, we will wrap its **Container** element (which is actually painted pu
         ...
 ```
  
-Our custom clipper will extend **CustomClipper<Path>** and override **getClip** and **shouldReclip**. 
+Our custom clipper will extend **CustomClipper&lt;Path&gt;** and override **getClip** and **shouldReclip**. 
 
 In **shouldReclip** we only need to tell Flutter if we want to apply the clip again. As in our first implementation of the clipper, we will have no parameters, so it is ok to always return false for now.
 
