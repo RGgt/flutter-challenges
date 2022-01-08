@@ -1,7 +1,15 @@
-{% include challenge_spoiler.html  %}
-
 {% include challenge_generic_advice.html  %}
+Spoiler: 
+<button title="Click to Show/Hide Hints" type="button" onclick="if(document.getElementById('spoiler_solution') .style.display=='none') {document.getElementById('spoiler_solution') .style.display=''}else{document.getElementById('spoiler_solution') .style.display='none'}">Show/Hide</button>
+<div id="spoiler_solution" style="display:none">
+    {% if page.spoiler_text %}
+    <div class="spoiler" >
+        <p >{{ page.spoiler_text | markdownify }}</p>
+    </div>
+    {% endif %}
+    {% include challenge_link_solutions.html %}
+</div>
 
-{% include challenge_link_solutions.html %}
+
 
 
