@@ -76,7 +76,7 @@ The result will look like this:
 
 Now we need to click the purple box and give it the wave-like aspect.
 
-To do that, we will wrap its **Container** element (which is actually painted purple) in a **ClipPath** widget, to which we will provide a custom **clipper**.
+To do that, we will wrap its **Container** element (which is actually painted purple) in a <strong><a href="https://api.flutter.dev/flutter/widgets/ClipPath-class.html" target="_blank">ClipPath</a></strong> widget, to which we will provide a custom **clipper**.
 
 ```dart
         ...
@@ -105,23 +105,23 @@ To do that, we will wrap its **Container** element (which is actually painted pu
         ...
 ```
  
-Our custom clipper will extend **CustomClipper&lt;Path&gt;** and override **getClip** and **shouldReclip**. 
+Our custom clipper will extend <strong><a href="https://api.flutter.dev/flutter/rendering/CustomClipper-class.html" target="_blank">CustomClipper&lt;Path&gt;</a></strong> and override <strong><a href="https://api.flutter.dev/flutter/rendering/CustomClipper/getClip.html" target="_blank">getClip</a></strong> and <strong><a href="https://api.flutter.dev/flutter/rendering/CustomClipper/shouldReclip.html" target="_blank">shouldReclip</a></strong>. 
 
-In **shouldReclip** we only need to tell Flutter if we want to apply the clip again. As in our first implementation of the clipper, we will have no parameters, so it is ok to always return false for now.
+In <strong><a href="https://api.flutter.dev/flutter/rendering/CustomClipper/shouldReclip.html" target="_blank">shouldReclip</a></strong> we only need to tell Flutter if we want to apply the clip again. As in our first implementation of the clipper, we will have no parameters, so it is ok to always return false for now.
 
-The interesting part is **getClip**, where we will define a **Path** that will give the container the wave-like shape. 
+The interesting part is <strong><a href="https://api.flutter.dev/flutter/rendering/CustomClipper/getClip.html" target="_blank">getClip</a></strong>, where we will define a <strong><a href="https://api.flutter.dev/flutter/dart-ui/Path-class.html" target="_blank">Path</a></strong> that will give the container the wave-like shape. 
 
-In fact, the **Path** that you return from this function will actually represent the area of the clipped control that you want to be visible. Anything that will be outside the path will be clipped out. 
+In fact, the <strong><a href="https://api.flutter.dev/flutter/dart-ui/Path-class.html" target="_blank">Path</a></strong> that you return from this function will actually represent the area of the clipped control that you want to be visible. Anything that will be outside the path will be clipped out. 
 
 By default, a path starts at the (0,0) point, but we need to start at a bit lower, at the base of the first wave. So, if the wave height is 25, we first need to move the starting point to (0, -25).
 
 From there, we need to draw a curve line for the first wave. This wave should end at (width/2, -25) and from there will start the second wave, which will end at (width, -25).
 
-These two waves will be defined using the **quadraticBezierTo** function. The first two parameters of this function define the control point, while the last two define the ending point of the curve. You will need to experiment with the control point for a bit, as it will not be "a point on the curve." Rather, it will act as a sort of magnet.
+These two waves will be defined using the <strong><a href="https://api.flutter.dev/flutter/dart-ui/Path/quadraticBezierTo.html" target="_blank">quadraticBezierTo</a></strong> function. The first two parameters of this function define the control point, while the last two define the ending point of the curve. You will need to experiment with the control point for a bit, as it will not be "a point on the curve." Rather, it will act as a sort of magnet.
 
 After you have defined the two waves, the only thing left is to include the rectangular part below them in the path.
 
-For this, we use the simple function **lineTo**.
+For this, we use the simple function <strong><a href="https://api.flutter.dev/flutter/dart-ui/Path/lineTo.html" target="_blank">lineTo</a></strong>.
 
 ```dart
 class MyClipper extends CustomClipper<Path> {
