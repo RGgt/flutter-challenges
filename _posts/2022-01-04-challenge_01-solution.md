@@ -7,7 +7,7 @@ in_list__title:  "Challenge 1 [Solution]"
 post_type: "solution"
 credit_line: "A solution by [RGgt](https://github.com/RGgt)"
 challenge: "challenge-01.html"
-og_title: "Flutter Challenges: Challenge 01 [Solution]"
+og_title: "Flutter Challenges: Challenge 01 [Solution using ClipPath and CustomClipper]"
 og_description: "To implement this design, we will need to place 2 widgets, one on top of the other. One widget will be a simple box with a white background; the other widget will have a purple background and will later be clipped to give the wave-like appearance..."
 og_image: "assets/{{ page.assets_folder }}/og_challenge_01_solution.jpg"
 
