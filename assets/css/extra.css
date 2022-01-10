@@ -21,6 +21,33 @@
     border: none; 
 }
 
+.attnNote { 
+    font-size: 18px; line-height: 1.5; color: rgb(213, 230, 238);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background-color: #2e7bcf; 
+    border: none; 
+}
+
+.attnNote a { 
+    font-size: 18px; line-height: 1.5; color: rgb(255, 255, 255);
+    font-weight: 600;
+    border: none; 
+}
+
+.attnNote a:hover { 
+    font-size: 18px; line-height: 1.5; color: rgb(216, 160, 241);
+    font-weight: 600;
+    border: none; 
+}
+
 header { padding-top: 40px; padding-bottom: 40px; font-family: 'Helvetica Neue', Helvetica, Arial, serif; background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x; border-bottom: solid 1px #275da1; }
 
 
