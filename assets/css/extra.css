@@ -6,7 +6,21 @@
     line-height: 1.5; 
     color: #474747;
 }
+.fancyLink { 
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 1.0; 
+    color: #275da1;;
+}
 
+.fancy a { 
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+    font-size: 18px; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    color: #275da1;;
+}
 .spoiler { 
     font-size: 18px; font-weight: 400; line-height: 1.5; color: #474747;
     margin-top: 20px;

@@ -1,0 +1,11 @@
+<br/>
+<p style="text-align:left;">
+    {% if page.prev_challenge %}
+    <a href="{{page.prev_challenge}}" style="text-align:right;">Previous challenge</a>
+{% else %}
+{% endif %}
+    {% if page.next_challenge %}
+    <a href="{{page.next_challenge}}" style="float:right;">Next challenge</a>
+{% else %}
+{% endif %}
+</p>

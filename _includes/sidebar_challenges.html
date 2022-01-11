@@ -1,0 +1,18 @@
+<div>
+    <h2>Recent Challenges</h2>
+    <ul style="display:flex; list-style:none;">
+        {% assign sorted_posts = site.posts | where:"post_type", "challenge" | sort:"in_list__order" %}
+        {% assign i = 0 %}
+        {% for post in sorted_posts %}
+        {% assign i = i | plus: 1 %}
+        {% if i == 2 %}
+        {% assign i = 1 %}
+    </ul>
+    <ul style="display:flex; list-style:none;">
+        {% endif %}
+        <li class="post-title fancyLink" style="display: inline; padding-right: 40px;">
+            - <a href="{{ post.permalink | absolute_url }}" >{{ post.in_list__title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
