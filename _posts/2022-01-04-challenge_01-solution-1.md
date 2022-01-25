@@ -13,11 +13,7 @@ og_image: "assets/{{ page.assets_folder }}/og_challenge_01_solution.jpg"
 
 categories: jekyll update # ?
 ---
-[<< Back to the challenge]({{page.challenge}})
-
-<h1 class="fancy centered"> {{ page.in_list__title }}</h1>
-{% include solution_credits_line.html  %}
-<hr>
+{% include solution_header_template.html  %}
 
 
 To implement this design, we will need to place 2 widgets, one on top of the other. One widget will be a simple box with a white background; the other widget will have a purple background and will later be clipped to give the wave-like appearance.

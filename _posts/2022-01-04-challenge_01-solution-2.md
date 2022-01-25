@@ -10,13 +10,11 @@ challenge: "challenge-01.html"
 og_title: "Flutter Challenges: Challenge 01 [Solution using CustomPainter]"
 og_description: "See the solution on DartPad"
 og_image: "assets/challenge_01/og_challenge_01.jpg"
+solution_data:
+  has_dartpad: true
+  dartpad_id: b4c74fc21f4671f2e075a69f8236e817
+  description_line: using CustomPainter
 
 categories: jekyll update # ?
 ---
-[<< Back to the challenge]({{page.challenge}})
-
-<h1 class="fancy centered"> {{ page.in_list__title }}</h1>
-{% include solution_credits_line.html  %}
-<hr>
- 
-<a href="https://dartpad.dev/?id=b4c74fc21f4671f2e075a69f8236e817" target="_blank">See the solution using CustomPainter</a> on DartPad
+{% include solution_header_template.html  %}

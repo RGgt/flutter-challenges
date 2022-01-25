@@ -10,13 +10,11 @@ challenge: "challenge-03.html"
 og_title: "Flutter Challenges: Challenge 03 [Solution]"
 og_description: "See the solution on DartPad"
 og_image: "assets/challenge_03/og_challenge_03.jpg"
+solution_data:
+  has_dartpad: true
+  dartpad_id: 9be7f0f888e9f4f82e17bd9fedea80ef
+  description_line: using BLoC for state management
 
 categories: jekyll update # ?
 ---
-[<< Back to the challenge]({{page.challenge}})
-
-<h1 class="fancy centered"> {{ page.in_list__title }}</h1>
-{% include solution_credits_line.html  %}
-<hr>
- 
-<a href="https://dartpad.dev/?id=9be7f0f888e9f4f82e17bd9fedea80ef" target="_blank">See the solution (using Bloc for state management)</a> on DartPad
+{% include solution_header_template.html  %}
