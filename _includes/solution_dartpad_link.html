@@ -1,6 +1,14 @@
 {% if page.solution_data %}
 {% if page.solution_data.has_dartpad %}
 
-<a href="https://dartpad.dev/?id={{ page.solution_data.dartpad_id }}" target="_blank">See the solution ({{ page.solution_data.description_line }})</a> on DartPad
+{% if page.solution_data.description_line %} 
+<a href="https://dartpad.dev/?id={{ page.solution_data.dartpad_id }}" target="_blank">
+    See the solution ({{ page.solution_data.description_line }})
+</a> on DartPad
+{% else %}
+<a href="https://dartpad.dev/?id={{ page.solution_data.dartpad_id }}" target="_blank">
+    See the solution 
+</a> on DartPad
+{% endif %}
 {% endif %}
 {% endif %}
